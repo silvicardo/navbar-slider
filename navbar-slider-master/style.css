@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar-left, .navbar-right{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.navbar-left img{
+  height: 60px;
+  margin: 10px;
+}
+
+.navbar-right .items-container{
+  list-style: none;
+  font-size: 20px;
+  text-align: right;
+  line-height: 80px;
+}
+
+.navbar-right .items-container > li{
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.navbar-right .items-container > li > a{
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  list-style: none;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.dropdown-menu li{
+  border-bottom: 1px solid white;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.container-slider{
+  width: 100%;
+  height: 400px;
+  margin: auto;
+}
+
+.indietro, .avanti{
+  float:left;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  line-height: 400px;
+  font-size: 40px;
+}
+
+.avanti{
+  float: right;
+}
+
+.slider{
+  width: 90%;
+  height: 100%;
+  float: left;
+  background: lightgrey;
+}
+
+.slider img{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.slider .active {
+  display: inline-block;
+}
